@@ -1,0 +1,203 @@
+/*
+ * Main Style
+ *
+ * Contributing author: Rully Ardiansyah (@DeVoresyah)
+ */
+
+ .top-menu{
+ 	box-shadow: none;
+ }
+ .top-menu a{
+ 	color: #CC342D;
+ }
+ .top-menu a:hover{
+ 	color: #9a2722;
+ }
+ .top-menu .nav>li>a:hover, .top-menu .nav>li>a:focus{
+ 	background-color: #CC342D;
+ 	color: #FAFAFA;
+ }
+ .top-menu .nav .open>a, .top-menu .nav .open>a:hover, .top-menu .nav .open>a:focus{
+ 	background-color: #CC342D;
+ 	color: #FAFAFA;
+ }
+ .top-menu .dropdown-menu{
+ 	background-color: #CC342D;
+ 	color: #fafafa;
+ }
+ .top-menu .dropdown-menu>li>a{
+ 	color: #fafafa;
+ }
+ .top-menu .dropdown-menu>li>a:hover, .top-menu .dropdown-menu>li>a:focus{
+ 	color: #fafafa;
+ 	background-color: #9a2722;
+ }
+ .top-fixed-menu{
+ 	width: 100%;
+ 	background: #CC342D;
+ }
+ .top-fixed-menu a{
+ 	color: #fafafa;
+ }
+ .top-fixed-menu a:hover{
+ 	color: #EEEEEE;
+ }
+ .top-fixed-menu .nav>li>a:hover, .top-fixed-menu .nav>li>a:focus{
+ 	background-color: #fafafa;
+ 	color: #CC342D;
+ }
+ .top-fixed-menu .nav .open>a, .top-fixed-menu .nav .open>a:hover, .top-fixed-menu .nav .open>a:focus{
+ 	background-color: #fafafa;
+ 	color: #CC342D;
+ }
+ .top-fixed-menu .dropdown-menu{
+ 	background-color: #fafafa;
+ 	color: #CC342D;
+ }
+ .top-fixed-menu .dropdown-menu>li>a{
+ 	color: #CC342D;
+ }
+ .top-fixed-menu .dropdown-menu>li>a:hover, .top-fixed-menu .dropdown-menu>li>a:focus{
+ 	color: #CC342D;
+ 	background-color: #e0e0e0;
+ }
+ header{
+ 	background: #212121;
+ }
+ .welcome-box{
+ 	text-align: center;
+ 	margin-top:141px;
+ 	color: #FAFAFA;
+	min-height: 450px;
+ }
+ .welcome-box h1{
+ 	color: #FAFAFA;
+ }
+ .welcome-box h3{
+ 	color: #9E9E9E;
+ }
+ .welcome-box h3 syntax{
+ 	color: #CC342D;
+ }
+ .btn-getstarted{
+ 	margin-top:50px;
+ 	border: 2px solid #CC342D;
+ 	background: transparent;
+ 	color: #CC342D;
+ }
+ .btn-getstarted:hover {
+ 	border:2px solid #9a2722;
+ 	color: #9a2722;
+ }
+ .grid-no-padding{
+ 	padding:0 !important;
+ }
+ .side-menu{
+ 	background-color: #fafafa;
+ 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+ 	z-index: 3;
+    position: absolute;
+    width: 100%;
+ }
+ .side-menu>li>a{
+	color: #CC342D;
+ }
+ .panel-features{
+ 	background: #CC342D;
+ 	color: #fafafa;
+ }
+ .panel-features h4{
+	color: #fafafa;
+ }
+ section.features h3, section.package h3{
+ 	margin-bottom: 30px;
+ }
+ section.features h3{
+	color: #555;
+ }
+ section.package h3{
+ 	color: #CC342D;
+ }
+ section.features, section.package{
+ 	padding-bottom: 50px;
+ }
+ section.package{
+ 	background: url(../img/bg-homepage.png) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+ 	margin-left:-20px;
+ 	padding-left: 20px;
+ 	margin-right:-15px;
+ 	padding-right: 15px;
+ }
+ section.package .panel-heading{
+ 	text-align: center;
+ }
+ section.package .panel-title{
+ 	font-size: 28px;
+ 	font-weight: bold;
+ }
+ section.package .package-description{
+ 	font-size: 18px;
+ }
+ .package-features{
+ 	color: #212121;
+ 	list-style: none;
+ 	padding: 0;
+ 	font-size: 18px;
+ 	text-align: center;
+ }
+ .package-features li:nth-of-type(odd){
+ 	background-color: #EEEEEE;
+ }
+ .section-footer{ 
+ 	width: 100%;
+    background: #f0f0f0;
+    font-size: 13px;
+    color: #999;
+    line-height: 1.8em;
+    z-index: 9;
+    position: absolute;
+    box-shadow: 0px -1px 2px rgba(0,0,0,0.3);
+    -webkit-font-smoothing: antialiased;
+ }
+ #footer{
+ 	margin-top: 15px;
+ 	padding-bottom: 10px;
+ }
+ #footer h4{
+ 	margin: 1.33em 0;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #CC342D;
+ }
+ #footer ul{
+ 	list-style: none;
+    padding-left: 0;
+    font-weight: 200;
+ }
+ #footer ul li a{
+ 	text-decoration: none;
+ }
+ #credits{
+ 	width: 100%;
+ 	background: #fafafa;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ }
+ #credits ul{
+ 	list-style: none;
+ 	float: right;
+ }
+ #credits ul li{
+ 	display: inline-block;
+ 	margin-right: 5px;
+ }
+ a.credit-brand{
+ 	text-decoration: none;
+ }
