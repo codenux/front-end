@@ -16,5 +16,5 @@ $(window).bind('scroll', function () {
 });
 
 $(document).ready(function(){
-	$('.side-menu').css('height', $('.content').height());
+	$('.side-menu').css('height', $('#section-content').height());
 })

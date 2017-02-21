@@ -98,6 +98,7 @@
  	z-index: 3;
     position: absolute;
     width: 100%;
+    height: 100%;
  }
  .side-menu>li>a{
 	color: #CC342D;
@@ -118,7 +119,7 @@
  section.package h3{
  	color: #CC342D;
  }
- section.features, section.package{
+ section.features, section.package, section.pagination-footer{
  	padding-bottom: 50px;
  }
  section.package{
@@ -199,5 +200,27 @@
  	margin-right: 5px;
  }
  a.credit-brand{
+ 	text-decoration: none;
+ }
+ section.breadcrumbs{
+ 	margin-top: -23px;
+ 	background: #f0f0f0;
+ 	color: #999;
+ 	padding-top: 15px;
+ 	padding-bottom: 3px;
+ }
+ .breadcrumbs ul{
+ 	list-style: none;
+ }
+ .breadcrumbs ul li{
+ 	display: inline-block;
+ }
+ .breadcrumbs ul li:after{
+ 	content: " / ";
+ }
+ .breadcrumbs ul li:last-child:after{
+ 	content: "";
+ }
+ .breadcrumbs ul li a{
  	text-decoration: none;
  }
