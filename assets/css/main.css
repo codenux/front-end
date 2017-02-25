@@ -35,32 +35,32 @@
  	color: #fafafa;
  	background-color: #9a2722;
  }
- .top-fixed-menu{
+ .top-fixed-menu, .ruby-menu{
  	width: 100%;
  	background: #CC342D;
  }
- .top-fixed-menu a{
+ .top-fixed-menu a, .ruby-menu a{
  	color: #fafafa;
  }
- .top-fixed-menu a:hover{
+ .top-fixed-menu a:hover, .ruby-menu a:hover{
  	color: #EEEEEE;
  }
- .top-fixed-menu .nav>li>a:hover, .top-fixed-menu .nav>li>a:focus{
+ .top-fixed-menu .nav>li>a:hover, .top-fixed-menu .nav>li>a:focus, .ruby-menu .nav>li>a:hover, .ruby-menu .nav>li>a:focus{
  	background-color: #fafafa;
  	color: #CC342D;
  }
- .top-fixed-menu .nav .open>a, .top-fixed-menu .nav .open>a:hover, .top-fixed-menu .nav .open>a:focus{
+ .top-fixed-menu .nav .open>a, .top-fixed-menu .nav .open>a:hover, .top-fixed-menu .nav .open>a:focus, .ruby-menu .nav .open>a, .ruby-menu .nav .open>a:hover, .ruby-menu .nav .open>a:focus{
  	background-color: #fafafa;
  	color: #CC342D;
  }
- .top-fixed-menu .dropdown-menu{
+ .top-fixed-menu .dropdown-menu, .ruby-menu .dropdown-menu{
  	background-color: #fafafa;
  	color: #CC342D;
  }
- .top-fixed-menu .dropdown-menu>li>a{
+ .top-fixed-menu .dropdown-menu>li>a, .ruby-menu .dropdown-menu>li>a{
  	color: #CC342D;
  }
- .top-fixed-menu .dropdown-menu>li>a:hover, .top-fixed-menu .dropdown-menu>li>a:focus{
+ .top-fixed-menu .dropdown-menu>li>a:hover, .top-fixed-menu .dropdown-menu>li>a:focus, .ruby-menu .dropdown-menu>li>a:hover, .ruby-menu .dropdown-menu>li>a:focus{
  	color: #CC342D;
  	background-color: #e0e0e0;
  }
@@ -281,4 +281,17 @@
  .setting-side-menu a.active:hover, .setting-side-menu a.active:focus{
     background: #f5f5f5;
     color: #555;
+ }
+ .ruby-pager a{
+    color: #CC342D;
+ }
+ input[type="radio"]:before, .radio input[type="radio"]:before, .radio-inline input[type="radio"]:before{
+    background-color: #CC342D;
+ }
+ input[type="radio"]:checked:after, .radio input[type="radio"]:checked:after, .radio-inline input[type="radio"]:checked:after, input[type="checkbox"]:focus:after, .checkbox input[type="checkbox"]:focus:after, .checkbox-inline input[type="checkbox"]:focus:after {
+    border-color: #CC342D;
+ }
+ input[type="checkbox"]:checked:after, .checkbox input[type="checkbox"]:checked:after, .checkbox-inline input[type="checkbox"]:checked:after {
+    background-color: #CC342D;
+    border-color: #CC342D;
  }
