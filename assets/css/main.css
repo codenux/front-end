@@ -4,6 +4,9 @@
  * Contributing author: Rully Ardiansyah (@DeVoresyah)
  */
 
+ html, body{
+    height: 100%;
+ }
  .top-menu{
  	box-shadow: none;
  }
@@ -123,11 +126,7 @@
  	padding-bottom: 50px;
  }
  section.package{
- 	background: url(../img/bg-homepage.png) no-repeat center center fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+ 	background: #eee;
  	margin-left:-20px;
  	padding-left: 20px;
  	margin-right:-15px;
@@ -135,6 +134,8 @@
  }
  section.package .panel-heading{
  	text-align: center;
+    background: #CC342D;
+    color: #fafafa;
  }
  section.package .panel-title{
  	font-size: 28px;
@@ -208,6 +209,7 @@
  	color: #999;
  	padding-top: 15px;
  	padding-bottom: 3px;
+    margin-bottom: 15px;
  }
  .breadcrumbs ul{
  	list-style: none;
@@ -223,4 +225,28 @@
  }
  .breadcrumbs ul li a{
  	text-decoration: none;
+ }
+ .login-area{
+    background: url(../img/bg-login-register.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+ }
+ #particulation{
+    position: absolute;
+    top: 25%;
+ }
+ #particulation h3{
+    color: #CC342D;
+ }
+ .sidebar-recent-post h4{
+    font-size: 18px;
+ }
+ .related-post h3{
+    font-size: 22px;
+    border-left: 4px solid #CC342D;
+    padding-left: 10px;
  }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1" name="viewport"/>
+		<title>Codenux</title>
+		<!-- CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<!-- jQuery -->
+		<script src="assets/js/jquery.min.js"></script>
+	</head>
+	<body>
+		<!-- Section: Login Panel -->
+		<section class="login-area">
+			<div id="particulation">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-4">
+							<h3 class="text-center">
+							<i class="fa fa-user"></i> Member Area
+							</h3>
+							<div class="panel panel-default">
+								<div class="panel-body">
+									<form action="">
+										<div class="form-group">
+											<label for="inputUsername" control-label"><i class="fa fa-user"></i> Username/Email</label>
+											<input type="text" class="form-control" id="inputUsername" placeholder="Username/Email">
+										</div>
+										<div class="form-group">
+											<label for="inputPassword" control-label"><i class="fa fa-lock"></i> Password</label>
+											<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+											<div class="checkbox">
+												<label>
+													<input type="checkbox"> Remember Me
+												</label>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="row">
+												<div class="col-md-6">
+													<button type="submit" class="btn btn-danger btn-block"><i class="fa fa-sign-in"></i> Login</button>
+												</div>
+												<div class="col-md-6">
+													<a href="#" class="btn btn-primary btn-block"><i class="fa fa-edit"></i> Register</a>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script>
+			$(document).ready(function() {
+			    $('.login-area').particleground({
+			        dotColor: '#fafafa',
+			        lineColor: '#fafafa',
+			        maxSpeedX: 0.2,
+			        maxSpeedY: 0.2,
+			        minSpeedX: 0.2,
+			        minSpeedY: 0.2
+			    });
+			})
+		</script>
+		<!-- Javascript -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/particleground.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
