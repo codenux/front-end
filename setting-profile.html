@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1" name="viewport"/>
+		<title>Setting Profile</title>
+		<!-- CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<!-- jQuery -->
+		<script src="assets/js/jquery.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-inverse">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Codenux</a>
+					</div>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Bahasa <span class="caret"></span></a>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">HTML</a></li>
+									<li><a href="#">CSS</a></li>
+									<li><a href="#">PHP</a></li>
+									<li><a href="#">Java</a></li>
+									<li><a href="#">Python</a></li>
+									<li><a href="#">Ruby</a></li>
+									<li><a href="#">Ruby on Rails</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Artikel</a></li>
+							<li><a href="#">Alat</a></li>
+							<li><a href="#">Perpustakaan</a></li>
+							<li><a href="#">Tanya Jawab</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#"><i class="fa fa-github"></i> Sign In</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- Section: Content -->
+		<section id="section-content" class="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="panel panel-danger">
+							<div class="panel-heading">
+								<h2 class="panel-title">Personal Settings</h2>
+							</div>
+							<div class="list-group setting-side-menu">
+								<a href="#" class="list-group-item">Profile</a>
+								<a href="#" class="list-group-item">Account</a>
+								<a href="#" class="list-group-item">Emails</a>
+								<a href="#" class="list-group-item">Notifications</a>
+								<a href="#" class="list-group-item">Billing</a>
+								<a href="#" class="list-group-item">Security</a>
+								<a href="#" class="list-group-item">Blocked users</a>
+								<a href="#" class="list-group-item">Repositories</a>
+								<a href="#" class="list-group-item">Organization</a>
+								<a href="#" class="list-group-item active">Active Menu</a>
+							</div>
+						</div>
+						<div class="panel panel-danger">
+							<div class="panel-heading">
+								<h2 class="panel-title">Developer Settings</h2>
+							</div>
+							<div class="list-group setting-side-menu">
+								<a href="#" class="list-group-item">OAuth applications</a>
+								<a href="#" class="list-group-item active">Integrations</a>
+								<a href="#" class="list-group-item">Personal access tokens</a>
+							</div>
+						</div>
+					</div>
+					<div id="profile-settings-panel" class="col-md-9">
+						<section>
+							<h4>Public profile</h4>
+							<hr>
+							<div class="row">
+								<div class="col-md-9">
+									<form id="form-settings" action="">
+										<div class="form-group">
+											<label class="control-label" for="inputDefault">Default input</label>
+											<input type="text" class="form-control" id="inputDefault">
+										</div>
+										<div class="form-group">
+											<label class="control-label" for="disabledInput">Disabled input</label>
+											<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled="">
+										</div>
+										<div class="form-group">
+											<label class="control-label" for="dropdownInput">Dropdown input</label>
+											<select class="form-control" id="select">
+												<option>1</option>
+												<option>2</option>
+												<option>3</option>
+												<option>4</option>
+												<option>5</option>
+											</select>
+											<span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+										</div>
+										<div class="form-group">
+											<label class="control-label" for="radioInput">Choose option</label>
+											<div class="radio">
+												<label>
+													<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+													Option one is this
+												</label>
+											</div>
+											<div class="radio">
+												<label>
+													<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+													Option two can be something else
+												</label>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="control-label" for="checkboxInput">Checkbox</label>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox"> Checkbox
+												</label>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="control-label" for="textareaInput">Textarea</label>
+											<textarea class="form-control" rows="3" id="textArea"></textarea>
+										</div>
+										<div class="form-group">
+											<button type="submit" class="btn btn-primary">Save Changes</button>
+											<button type="reset" class="btn btn-default">Cancel</button>
+										</div>
+									</form>
+								</div>
+								<div class="col-md-3">
+									<b>Profile picture</b>
+									<img src="assets/img/sample-img.jpeg" alt="" width="200" height="200" class="img-thumbnail">
+									<button id="set-profile-picture" class="btn btn-danger btn-block">Upload new picture</button>
+								</div>
+							</div>
+						</section>
+						
+						<section>
+							<div class="row">
+								<div class="col-md-12">
+									<h4>GitHub Developer Programs</h4>
+									<div class="more-text">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a ullamcorper diam. <a href="#">Nam bibendum</a>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Section: Footer -->
+		<footer class="section-footer">
+			<div id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2">
+							<h4>Products</h4>
+							<ul>
+								<li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+								<li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+								<li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+								<li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+								<li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2">
+							<h4>Resource</h4>
+							<ul>
+								<li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+								<li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2">
+							<h4>About</h4>
+							<ul>
+								<li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+								<li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+								<li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+								<li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+								<li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2">
+							<h4>Support</h4>
+							<ul>
+								<li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+								<li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+								<li><a href="#">Lorem Ipsum Dolor Sit Amet</a></li>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<h4><i class="fa fa-paper-plane-o"></i> Subscribe to our monthly newsletter</h4>
+							<form action="">
+								<div class="form-group">
+									<div class="col-md-8">
+										<input class="form-control" type="email" placeholder="yourname@domain.com">
+									</div>
+									<div class="col-md-4">
+										<button type="submit" class="btn btn-primary">Submit</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="credits">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<a href="#" class="credit-brand">CodeNux</a>
+						</div>
+						<div class="col-md-9">
+							<ul>
+								<li><a href="#">Terms of Service</a></li>
+								<li><a href="#">Disclaimer</a></li>
+								<li><a href="#">Privacy</a></li>
+								<li><a href="#">Cookies</a></li>
+								<li class="copyright">&copy;2017 codenux.com</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Javascript -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>

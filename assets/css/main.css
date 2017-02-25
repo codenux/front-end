@@ -250,3 +250,35 @@
     border-left: 4px solid #CC342D;
     padding-left: 10px;
  }
+ #set-profile-picture{
+    margin-top: 10px;
+ }
+ #form-settings .control-label{
+    font-weight: bold;
+ }
+ .more-text{
+    padding: 16px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+ }
+ #profile-settings-panel {
+    margin-bottom: 25px;
+ }
+ #profile-settings-panel section{
+    margin-top: 15px;
+ }
+ #profile-settings-panel section:first-child{
+    margin-top: 0;
+ }
+ .setting-side-menu a.active{
+    background: transparent;
+    color: #555;
+    border: 0;
+    border-left: 4px solid #CC342D !important;
+ }
+ .setting-side-menu a.active:hover, .setting-side-menu a.active:focus{
+    background: #f5f5f5;
+    color: #555;
+ }
