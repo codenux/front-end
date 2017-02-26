@@ -295,3 +295,9 @@
     background-color: #CC342D;
     border-color: #CC342D;
  }
+ .public-username{
+    color: #bbb;
+ }
+ #public-profile-tab{
+    margin-top: 15px;
+ }
