@@ -301,3 +301,11 @@
  #public-profile-tab{
     margin-top: 15px;
  }
+ .section-footer a:link, .section-footer a:visited{
+    color: #999;
+    text-decoration: none;
+}
+.section-footer a:hover, .section-footer a:active{
+    color: #4d4d4d;
+    text-decoration: none;
+}
