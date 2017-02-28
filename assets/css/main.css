@@ -122,8 +122,8 @@
  section.package h3{
  	color: #CC342D;
  }
- section.features, section.package, section.pagination-footer{
- 	padding-bottom: 50px;
+ section.features, section.package, section.pagination-footer, #section-content{
+ 	padding-bottom: 80px;
  }
  section.package{
  	background: #eee;
@@ -167,7 +167,8 @@
  }
  #footer{
  	margin-top: 15px;
- 	padding-bottom: 10px;
+ 	padding-bottom: 50px;
+    padding-top: 20px;
  }
  #footer h4{
  	margin: 1.33em 0;
@@ -189,8 +190,8 @@
  #credits{
  	width: 100%;
  	background: #fafafa;
- 	padding-top: 15px;
- 	padding-bottom: 15px;
+ 	padding-top: 30px;
+ 	padding-bottom: 25px;
  }
  #credits ul{
  	list-style: none;
@@ -209,7 +210,7 @@
  	color: #999;
  	padding-top: 15px;
  	padding-bottom: 3px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
  }
  .breadcrumbs ul{
  	list-style: none;
@@ -308,4 +309,7 @@
 .section-footer a:hover, .section-footer a:active{
     color: #4d4d4d;
     text-decoration: none;
+}
+.homepage-content{
+    padding-bottom: 0 !important;
 }
