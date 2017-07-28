@@ -313,3 +313,20 @@
 .homepage-content{
     padding-bottom: 0 !important;
 }
+.top-menu .navbar-toggle {
+    color: #CC342D;
+    font-size: 16px;
+    padding: 5px 8px;
+}
+.top-fixed-menu .navbar-toggle {
+    font-size: 16px;
+    padding: 5px 8px;
+    color: white;
+}
+@media only screen and (max-width: 700px) {
+    .side-menu{
+        z-index: 0;
+        position: relative;
+        height: auto !important;
+    }
+}
